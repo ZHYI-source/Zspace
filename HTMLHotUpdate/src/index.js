@@ -6,9 +6,10 @@ function component() {
 
 function component2() {
     const element = document.createElement('p');
-    element.textContent = 'Webpack Dev Server 热更新将会触发浏览器的局部自动刷新，以加载最新的文件内容，更新页面显示。这将让你一边修改代码，一边看到实时的效果，就像是在刷新页面一样。';
+    element.textContent = 'Webpack Dev Server 热更新的HTML内容。';
     return element;
 }
+
 
 document.body.appendChild(component());
 document.body.appendChild(component2());
